@@ -1,0 +1,47 @@
+.task-item {
+  background-color: #d35454;
+  border-left: 6px solid #4caf50;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.task-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.task-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.task-item button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.task-item button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .task-item {
+    padding: 15px;
+  }
+
+  .task-item button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+}
