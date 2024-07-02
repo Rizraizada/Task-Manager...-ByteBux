@@ -30,35 +30,30 @@ Make sure you have the following installed:
 
      https://github.com/Rizraizada/Task-Manager...-ByteBux.git
      cd task-manager-app
-    ```
+     
 
 2. Navigate to the frontend directory and install dependencies
 
-     cd frontend
+    cd frontend
     npm install
-    ```
-
+ 
 3. Navigate to the backend directory and install dependencies
 
-     cd ../backend
+    cd ../backend
     npm install
-    ```
-
+ 
 ## Running the Application
 
 ### Running the Frontend
 
 1. Navigate to the frontend directory
 
-    ```bash
-    cd frontend
-    ```
+     cd frontend
 
 2. Start the frontend server
 
-    ```bash
-    npm start
-    ```
+     npm start
+     
 
    The frontend will run on `http://localhost:3000`.
 
@@ -66,32 +61,24 @@ Make sure you have the following installed:
 
 1. Navigate to the backend directory
 
-    ```bash
-    cd backend
-    ```
-
+     cd backend
+     
 2. Start the backend server
 
-    ```bash
-    npm start
-    ```
-
+     npm start
+ 
    The backend will run on `http://localhost:5000`.
 
 ### Running Frontend and Backend Concurrently
 
 1. Navigate to the root directory of the project
 
-    ```bash
-    cd task-manager-app
-    ```
-
+     cd task-manager-app
+ 
 2. Start both the frontend and backend servers concurrently
 
-    ```bash
-    npm start
-    ```
-
+     npm start
+ 
    This will run both the frontend and backend servers.
 
 ## API Endpoints
